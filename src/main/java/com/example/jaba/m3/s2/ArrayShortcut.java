@@ -23,10 +23,13 @@ public class ArrayShortcut {
 //        data[data.length] = 21; // WRONG! exception!
         data[data.length - 1] = 21;
 
-        System.out.print("The last element is ");
+        System.out.print("Now the last element is ");
         System.out.println(data[data.length - 1]);
 
-        System.out.print("The length is ");
+        System.out.print("The index of the last element is ");
+        System.out.println(data.length - 1);
+
+        System.out.print("The array length is ");
         System.out.println(data.length);
     }
 }
