@@ -27,6 +27,6 @@ public class Constants {
 
         // primitive constants can't change!
 //        A_CONSTANT = 42;
-//        anotherConstant = 18;
+//        aConstant = 18;
     }
 }
