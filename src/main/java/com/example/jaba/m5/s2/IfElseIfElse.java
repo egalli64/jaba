@@ -10,19 +10,20 @@ package com.example.jaba.m5.s2;
  */
 public class IfElseIfElse {
     /**
-     * One among three different blocks is executed
+     * One among the different blocks is executed
      * 
-     * @param args different print, accordingly to args length
+     * @param args length used for determining what to print
      */
     public static void main(String[] args) {
-
         // exactly one of these three blocks is going to be executed
         if (args.length == 0) {
             System.out.println("You didn't pass me any argument!");
         } else if (args.length == 1) {
             System.out.println("You passed me one argument");
+        } else if (args.length == 2) {
+            System.out.println("You passed me two arguments");
         } else {
-            System.out.println("You passed me two arguments or more");
+            System.out.println("You passed me three or more arguments");
         }
 
         // always executed
