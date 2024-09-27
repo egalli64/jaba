@@ -28,7 +28,7 @@ public class Concatenation {
         System.out.println(5 + 7 + "4"); // -> 124
 
         System.out.println("Resistence" + " is " + "useless");
-        System.out.println("Solution: " + 42);
+        System.out.println("\"Solution: \"" + 42);
         System.out.println(true + " or " + false);
 
         System.out.print("Repeat \"Vogons\" three times: ");
@@ -42,18 +42,26 @@ public class Concatenation {
         // reference to a different object created by concatenation
         s += ", Tom";
 
+        // same as assigning the result of concatenation back to s
+//        s = s + ", Tom";
+
+        // same as going through a string builder
+//        StringBuilder sb = new StringBuilder(s);
+//        sb.append(", Tom");
+//        s = sb.toString();
+
         System.out.print("+= on a string generate a new object: ");
         System.out.println(s);
 
         System.out.print("We could still have access to the original string: ");
         System.out.println(t);
 
-        System.out.println("A string of 20 asterisks, generated in a compact way");
-        System.out.println("*".repeat(20));
-
-        System.out.println("A string of 20 asterisks, generated in a more verbose way");
+        System.out.println("A string of 20 asterisks, generated in a verbose way");
         String star = "*";
         String star20 = star.repeat(20);
         System.out.println(star20);
+
+        System.out.println("A string of 20 asterisks, generated in a compact way");
+        System.out.println("*".repeat(20));
     }
 }
