@@ -5,7 +5,7 @@
  */
 package com.example.jaba.m5.s4;
 
-import com.example.jaba.m5.s3.IfDay;
+import com.example.jaba.m5.s3.ModernConstants;
 import com.example.jaba.m5.s3.WeekDay;
 
 /**
@@ -17,11 +17,12 @@ public class SwitchDay {
      * 
      * @param args not used
      * @see WeekDay enumerator for the week days
-     * @see IfDay same result, but using if-else instead
+     * @see ModernConstants same result, but using if-else instead
      */
     public static void main(String[] args) {
         WeekDay today = SwitchDay.aDay();
         System.out.println("Today is " + today);
+        System.out.print("Let's go and eat ... ");
 
         switch (today) {
         case MONDAY:
