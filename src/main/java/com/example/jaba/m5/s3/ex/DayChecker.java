@@ -5,7 +5,7 @@
  */
 package com.example.jaba.m5.s3.ex;
 
-import com.example.jaba.m5.s3.IfDay;
+import com.example.jaba.m5.s3.ModernConstants;
 import com.example.jaba.m5.s3.WeekDay;
 
 /**
@@ -13,7 +13,7 @@ import com.example.jaba.m5.s3.WeekDay;
  */
 public class DayChecker {
     public static void main(String[] args) {
-        WeekDay day = IfDay.aDay();
+        WeekDay day = ModernConstants.aDay();
         System.out.println("The generated day is " + day);
 
         // TODO 1: if the generated weekday is FRIDAY print "Have a nice weekend"

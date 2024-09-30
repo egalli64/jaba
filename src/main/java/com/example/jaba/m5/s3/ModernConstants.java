@@ -8,7 +8,7 @@ package com.example.jaba.m5.s3;
 /**
  * Control flow - Decision: if else if ... else using an enum
  */
-public class IfDay {
+public class ModernConstants {
     /**
      * Pick a week day randomly, then print the associated food of the day
      * 
@@ -17,8 +17,9 @@ public class IfDay {
      */
     public static void main(String[] args) {
         WeekDay today = aDay();
-        // the method toString() is implicitly called on today
+
         System.out.println("Today is " + today);
+        System.out.print("Let's go and eat ... ");
 
         if (today == WeekDay.MONDAY) {
             System.out.println("Chinese");
