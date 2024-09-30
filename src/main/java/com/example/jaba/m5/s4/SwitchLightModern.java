@@ -8,7 +8,7 @@ package com.example.jaba.m5.s4;
 /**
  * Control flow - Decision: switch and enumerator
  */
-public class SwitchLight {
+public class SwitchLightModern {
     /**
      * Generate randomly a TrafficLight, then use it to print a message
      * 
@@ -16,7 +16,9 @@ public class SwitchLight {
      * @see TrafficLight enumerator for available traffic lights
      */
     public static void main(String[] args) {
-        TrafficLight light = SwitchLight.aColor();
+        TrafficLight light = SwitchLightModern.aColor();
+
+        System.out.println("The light is " + light);
 
         switch (light) {
         case GREEN:
@@ -29,7 +31,6 @@ public class SwitchLight {
             System.out.println("Stop!");
             break;
         }
-        System.out.println("Done!");
     }
 
     /**
