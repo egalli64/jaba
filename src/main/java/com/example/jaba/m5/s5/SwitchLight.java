@@ -16,7 +16,7 @@ public class SwitchLight {
      * 
      * @param args not used
      * @see TrafficLight enumerator for available traffic lights
-     * @see com.example.jaba.m5.s4.SwitchLight same result using classic switch
+     * @see com.example.jaba.m5.s4.SwitchLightModern same result using classic switch
      */
     public static void main(String[] args) {
         TrafficLight light = SwitchLight.aColor();
