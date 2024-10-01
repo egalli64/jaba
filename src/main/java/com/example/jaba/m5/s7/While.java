@@ -20,12 +20,15 @@ public class While {
             System.out.println("Please, pass me arguments!");
         }
 
+        // loop variable - in a while loop is defined _before_ the loop itself
         int i = 0;
         while (i < args.length) {
             System.out.println("The argument " + i + " is " + args[i]);
+            // remember to change the loop variable!
             i++;
         }
 
+        // the while loop variable is visible also after the loop
         System.out.println("done, looped " + i + " times");
     }
 }
