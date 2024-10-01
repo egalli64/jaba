@@ -19,6 +19,14 @@ public class Breaker {
         // target is Bob, or whatever the user passes in
         String target = args.length == 0 ? "Bob" : args[0];
 
+        // alternative approach using if-else
+//        String target;
+//        if (args.length == 0) {
+//            target = "Bob";
+//        } else {
+//            target = args[0];
+//        }
+
         String[] guests = { "Tom", "Bob", "Kim", "Zoe", "Al", "Pete" };
 
         for (String guest : guests) {
@@ -27,6 +35,14 @@ public class Breaker {
                 break;
             }
         }
+
+        // same, but using a plain for loop
+//        for (int i = 0; i < guests.length; i++) {
+//            if (guests[i].equals(target)) {
+//                System.out.println(target + " found among guests!");
+//                break;
+//            }
+//        }
 
         System.out.println("Done");
     }
