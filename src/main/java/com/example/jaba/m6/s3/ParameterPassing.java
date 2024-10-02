@@ -12,17 +12,17 @@ package com.example.jaba.m6.s3;
  */
 public class ParameterPassing {
     /**
-     * No side effect
+     * No effect on the caller
      * 
      * @param parameter being a primitive, it is just a local copy
      */
     public void primitive(int parameter) {
-        parameter += 1;
+        parameter *= 2;
         System.out.println("parameter is " + parameter);
     }
 
     /**
-     * No side effect
+     * No effect on the caller
      * 
      * @param parameter an immutable, can't be changed
      */
@@ -42,7 +42,7 @@ public class ParameterPassing {
     }
 
     /**
-     * Side effect
+     * It has effect on the caller
      * 
      * @param parameter a reference, the referred object could be changed
      */
@@ -60,7 +60,7 @@ public class ParameterPassing {
     }
 
     /**
-     * Side effect
+     * It has effect on the caller
      * 
      * @param data an array, it is a mutable reference, its values could be changed
      */
@@ -81,7 +81,10 @@ public class ParameterPassing {
      * @return the increased value
      */
     public int increase(int value) {
-        return value + 1;
+        value += 1;
+        System.out.println("Increase value is " + value);
+
+        return value;
     }
 
     /**
