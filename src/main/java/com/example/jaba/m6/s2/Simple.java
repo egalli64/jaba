@@ -12,7 +12,7 @@ package com.example.jaba.m6.s2;
  */
 public class Simple {
     /**
-     * A static method
+     * A static method with no side effect
      * 
      * @return a string
      */
@@ -21,7 +21,7 @@ public class Simple {
     }
 
     /**
-     * An instance method having as parameters two integers and returning an integer
+     * An instance method with no side effect
      * 
      * @param a a value
      * @param b another value
@@ -32,7 +32,7 @@ public class Simple {
     }
 
     /**
-     * A void instance method having as parameter a boolean
+     * A void instance method with a side effect (print to console)
      * 
      * @param flag a value
      */
@@ -41,6 +41,20 @@ public class Simple {
             System.out.println("Hello");
         } else {
             System.out.println("Goodbye");
+        }
+    }
+
+    /**
+     * An instance method with no side effect
+     * 
+     * @param flag a boolean
+     * @return a string based on the input flag
+     */
+    String greet(boolean flag) {
+        if (flag == true) {
+            return "Hello";
+        } else {
+            return "Goodbye";
         }
     }
 }

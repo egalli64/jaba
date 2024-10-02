@@ -33,6 +33,11 @@ public class Main {
         int result = reference.anInstanceMethod(7, 6);
         System.out.println(result);
 
+        // call another instance method
         reference.anotherInstanceMethod(false);
+
+        // call an instance method returning a string
+        String output = reference.greet(true);
+        System.out.println(output);
     }
 }
