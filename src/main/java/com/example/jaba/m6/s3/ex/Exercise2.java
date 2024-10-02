@@ -15,7 +15,7 @@ public class Exercise2 {
         int[] data = { 4, 3, 1, 3 };
         System.out.println("The array: " + Arrays.toString(data));
 
-        // TODO:
+        // TODO: call sumFirstLast() to get the required value
         System.out.println("Sum of its first and last elements is ...");
     }
 
