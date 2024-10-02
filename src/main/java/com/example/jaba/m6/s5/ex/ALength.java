@@ -23,5 +23,6 @@ public class ALength {
         System.out.println("The strings are " + Arrays.toString(data));
 
         // TODO: print each string and its length on a different line
+        // For each element we should get something like: "some" has length 4
     }
 }
