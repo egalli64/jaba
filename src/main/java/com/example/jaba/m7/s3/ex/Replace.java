@@ -5,15 +5,15 @@
  * 
  * Exercise on StringBuilder methods
  */
-package com.example.jaba.m6.s6.ex;
+package com.example.jaba.m7.s3.ex;
 
 /**
- * Exercise to be solved using StringBuilder::delete()
+ * Exercise to be solved using StringBuilder::replace()
  */
-public class Delete {
+public class Replace {
     public static void main(String[] args) {
-        // TODO: Given a string with odd length, generate a copy without the central
-        // character, for example "abcde" => "abde"
+        // TODO: Given a string with odd length, generate a copy with the central char
+        // changed to X, for example "abcde" => "abXde"
         String input = "abcde";
         System.out.println("The input is " + input);
     }

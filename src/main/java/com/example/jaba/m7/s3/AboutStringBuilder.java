@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m6.s6;
+package com.example.jaba.m7.s3;
 
 /**
  * A first look to methods in StringBuilder

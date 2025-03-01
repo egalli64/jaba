@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m6.s7.ex;
+package com.example.jaba.m7.s4.ex;
 
 /**
  * Given two values print the smallest and the largest

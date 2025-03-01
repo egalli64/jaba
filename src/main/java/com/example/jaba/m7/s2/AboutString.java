@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m6.s5;
+package com.example.jaba.m7.s2;
 
 /**
  * A first look to methods in the class String

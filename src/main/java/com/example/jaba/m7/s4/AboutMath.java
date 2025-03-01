@@ -3,7 +3,7 @@
  * 
  * https://github.com/egalli64/jaba
  */
-package com.example.jaba.m6.s7;
+package com.example.jaba.m7.s4;
 
 /**
  * A first look to constants and methods in Math

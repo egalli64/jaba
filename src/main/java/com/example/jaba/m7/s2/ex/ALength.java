@@ -5,7 +5,7 @@
  * 
  * Exercise on String methods
  */
-package com.example.jaba.m6.s5.ex;
+package com.example.jaba.m7.s2.ex;
 
 import java.util.Arrays;
 

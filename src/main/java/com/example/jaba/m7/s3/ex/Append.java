@@ -5,7 +5,7 @@
  * 
  * Exercise on StringBuilder methods
  */
-package com.example.jaba.m6.s6.ex;
+package com.example.jaba.m7.s3.ex;
 
 import java.util.Arrays;
 
