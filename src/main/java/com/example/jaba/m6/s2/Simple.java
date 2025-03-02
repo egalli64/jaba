@@ -8,7 +8,7 @@ package com.example.jaba.m6.s2;
 /**
  * Defining methods
  * 
- * @see Main a class that invokes methods of this class
+ * @see SimpleCaller a class that invokes methods of this class
  */
 public class Simple {
     /**
@@ -21,10 +21,10 @@ public class Simple {
     }
 
     /**
-     * An instance method with no side effect
+     * An instance method that multiplies two numbers (no side effect)
      * 
-     * @param a a value
-     * @param b another value
+     * @param a a number
+     * @param b another number
      * @return the product of the two input values
      */
     int anInstanceMethod(int a, int b) {
@@ -32,9 +32,9 @@ public class Simple {
     }
 
     /**
-     * A void instance method with a side effect (print to console)
+     * A void instance method with a side effect (printing to console)
      * 
-     * @param flag a value
+     * @param flag if true, print "Hello"; otherwise, print "Goodbye"
      */
     void anotherInstanceMethod(boolean flag) {
         if (flag) {
@@ -45,10 +45,10 @@ public class Simple {
     }
 
     /**
-     * An instance method with no side effect
+     * An instance method that returns a message (no side effect)
      * 
      * @param flag a boolean
-     * @return a string based on the input flag
+     * @return "Hello" if flag is true, otherwise "Goodbye"
      */
     String greet(boolean flag) {
         if (flag == true) {
