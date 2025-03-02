@@ -10,33 +10,35 @@ package com.example.jaba.m6.s2;
  * 
  * @see Simple the referenced class
  */
-public class Main {
+public class SimpleCaller {
     /**
-     * Invoke methods from the standard library or a custom class
+     * Calls methods from the standard library and a custom class
      * 
      * @param args not used
-     * @see Simple a class with methods invoked here
      */
     public static void main(String[] args) {
-        // calling a static method
+        // call "sqrt()", static method in class "Math"
         double root = Math.sqrt(121.0);
 
-        // calling an instance method
+        // call "println()", instance method
+        // defined in an instance of class PrintStream referenced by "out"
         System.out.println(root);
 
-        // calling a static method on a custom class
+        // call "aStaticMethod()" in custom class "Simple"
         String aString = Simple.aStaticMethod();
         System.out.println(aString);
 
-        // to call instance methods we need a reference to an object of that class
+        // create an object of type "Simple" to call instance methods
         Simple reference = new Simple();
+
+        // call "anInstanceMethod()", and store its return value
         int result = reference.anInstanceMethod(7, 6);
         System.out.println(result);
 
-        // call another instance method
+        // call "anotherInstanceMethod()" with a boolean argument
         reference.anotherInstanceMethod(false);
 
-        // call an instance method returning a string
+        // call the instance method "greet()" and store its return value
         String output = reference.greet(true);
         System.out.println(output);
     }
